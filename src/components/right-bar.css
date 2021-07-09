@@ -1,0 +1,98 @@
+.right-sidebar{
+    position: fixed;
+    left:50px;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+}
+.right-sidebar span img{
+    height: 30px;
+    position: absolute;
+    left: 0;
+}
+
+span{
+    margin: 20px;
+    position: relative;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding:20px;
+    border-radius: 50px;
+}
+span:hover{
+    background-color: rgba(29, 160, 242, 0.349)
+}
+
+span *{
+    margin: 10px;
+}
+
+/* #logo-span{
+    align-items: center;
+    justify-content: flex-start;
+} */
+#logo-span:hover{
+    background-color: transparent;
+}
+
+#logo-span p{
+    font-size: 1px
+}
+
+span p{
+    position: absolute;
+    left: 60px;
+}
+
+#logo-span img{
+    height: 50px;
+}
+@media only screen and (max-width: 800px){
+	span p{
+        display: none;
+    }
+    span img{
+        left: 0;
+        right: 0;
+    }
+    span{
+        margin: 10px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+    }
+    .right-sidebar{
+        left: 0;
+    }
+    #logo-span img{
+        height: 30px;
+    }
+    #tweet-button{
+        display: none;
+    }
+}
+
+
+#tweet-button2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: 0;
+    outline: 0;
+    background-color: #3aa9ee;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
